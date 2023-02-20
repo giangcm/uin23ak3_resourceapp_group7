@@ -1,3 +1,4 @@
 export default function Header() {
-    return
+    return(
+        <h1>Ressursarkiv</h1>
 }
