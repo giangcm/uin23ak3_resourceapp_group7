@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import './css/main.css'
 
@@ -11,11 +10,11 @@ function App() {
             </a>
         </header>
         <nav>
-            <a class="navBox" id="CSS" onClick="renderCategory(event.target.id)">CSS</a>
-            <a class="navBox" className="navObject" id="HTML" onClick="renderCategory(event.target.id)">HTML</a>
-            <a class="navBox" className="navObject" id="JavaScript" onClick="renderCategory(event.target.id)">javascript</a>
-            <a class="navBox" className="navObject" id="React" onClick="renderCategory(event.target.id)">React</a>
-            <a class="navBox" id="Sanity and headless CMS" onClick="renderCategory(event.target.id)">Sanity and Headless CMS</a>
+            <a id="CSS" onClick="renderCategory(event.target.id)">CSS</a>
+            <a id="HTML" onClick="renderCategory(event.target.id)">HTML</a>
+            <a id="JavaScript" onClick="renderCategory(event.target.id)">javascript</a>
+            <a id="React" onClick="renderCategory(event.target.id)">React</a>
+            <a id="Sanity and headless CMS" onClick="renderCategory(event.target.id)">Sanity and Headless CMS</a>
         </nav>
         <main>
             <section>
